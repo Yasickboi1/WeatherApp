@@ -1,7 +1,5 @@
 package org.example.model;
 
-import jdk.jfr.Enabled;
-
 import javax.persistence.*;
 
 @Entity
