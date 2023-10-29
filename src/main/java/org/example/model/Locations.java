@@ -1,10 +1,12 @@
 package org.example.model;
 
+import org.example.dau.LocationDao;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name="Locations")
-public class Locations {
+public class Locations  {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
